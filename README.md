@@ -18,7 +18,6 @@ Program ini dirancang untuk membantu pengelolaan inventaris di lingkungan fakult
 meliputi pengelolaan data aset, data peminjam, proses peminjaman dan pengembalian aset,
 serta pemantauan status aset secara lebih terstruktur dan mudah digunakan.
 
-</details>
 
 ---
 
@@ -36,7 +35,6 @@ serta pemantauan status aset secara lebih terstruktur dan mudah digunakan.
 | Jenis Aplikasi | Command Line Interface (CLI) |
 | Kelompok | 6 |
 
-</details>
 
 ---
 
@@ -91,5 +89,3 @@ Berisi banner atau cover project yang ditampilkan pada halaman utama repository 
 
 📄 **README.md**  
 Berisi dokumentasi proyek, identitas kelompok, deskripsi sistem, pembagian tugas, struktur project, penjelasan file, dan panduan menjalankan program.
-
-</details>
