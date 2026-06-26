@@ -8,9 +8,6 @@
 
 ## 📖 Tentang Proyek
 
-<details open>
-<summary><b>Klik untuk melihat deskripsi proyek</b></summary>
-
 <br>
 
 Sistem Pengelolaan Inventaris Barang Milik Negara (BMN) merupakan aplikasi berbasis
@@ -26,9 +23,6 @@ serta pemantauan status aset secara lebih terstruktur dan mudah digunakan.
 ---
 
 ## 🏫 Identitas Proyek
-
-<details>
-<summary><b>Klik untuk melihat identitas proyek</b></summary>
 
 <br>
 
@@ -77,9 +71,6 @@ PBO/
 ---
 
 ## 📂 Penjelasan File
-
-<details>
-<summary><b>Klik untuk melihat fungsi setiap file</b></summary>
 
 <br>
 
