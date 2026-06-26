@@ -53,44 +53,52 @@ serta pemantauan status aset secara lebih terstruktur dan mudah digunakan.
 | Silfia Ulkhaq Fitriannisa' | Pengembangan Program dan Implementasi OOP |
 | Muhammad Syaikhul Umam | Pengembangan Program, CLI, dan Pengujian |
 | Oryza Alpha Azzukhruf | Penyusunan Isi Laporan dan Dokumentasi |
-| Azis Khoirul Setiawan | Pemformatan dan Finalisasi Laporan |
+| Azis Khoirul Setiawan | Pemformatan Finalisasi Laporan dan Source Code |
 
 ---
 
 ## ⚙️ Struktur Project
 
 ```text
-inventaris_bmn/
+PBO/
 │
 ├── assets/
 │   └── cover.png
+│
 ├── source_code/
+│   ├── bmn_inventory_cli.py
 │   ├── class_models.py
 │   ├── menu_cli.py
 │   └── main.py
+│
 └── README.md
 ```
 
-### Penjelasan File
+---
+
+## 📂 Penjelasan File
 
 <details>
 <summary><b>Klik untuk melihat fungsi setiap file</b></summary>
 
 <br>
 
-📄 class_models.py  
-Berisi implementasi seluruh class pada sistem, yaitu Aset, Elektronik,
-Furnitur, Kendaraan, Peminjam, dan SistemInventaris serta penerapan konsep OOP.
+📄 **bmn_inventory_cli.py**  
+Merupakan versi lengkap (single file) dari program Sistem Pengelolaan Inventaris BMN. File ini berisi seluruh implementasi class, logika bisnis, antarmuka Command Line Interface (CLI), validasi input, serta program utama dalam satu berkas Python.
 
-📄 menu_cli.py  
-Berisi antarmuka Command Line Interface (CLI), menu interaktif,
-dan validasi input pengguna.
+📄 **class_models.py**  
+Berisi implementasi seluruh class pada sistem, yaitu `Aset`, `Elektronik`, `Furnitur`, `Kendaraan`, `Peminjam`, dan `SistemInventaris`, serta penerapan konsep Object-Oriented Programming (OOP) meliputi Encapsulation, Inheritance, Polymorphism, dan Aggregation.
 
-📄 main.py  
-Berisi program utama, inisialisasi data awal,
-dan pemanggilan antarmuka CLI.
+📄 **menu_cli.py**  
+Berisi implementasi antarmuka berbasis teks (CLI), menu interaktif, proses pengolahan data, serta validasi input pengguna.
 
-📄 assets/cover.png  
-Berisi banner atau cover project yang ditampilkan pada halaman utama repository.
+📄 **main.py**  
+Berisi program utama (*entry point*) yang digunakan untuk menginisialisasi data awal, membuat objek `SistemInventaris`, dan menjalankan antarmuka Command Line Interface (CLI).
+
+📄 **assets/cover.png**  
+Berisi banner atau cover project yang ditampilkan pada halaman utama repository GitHub.
+
+📄 **README.md**  
+Berisi dokumentasi proyek, identitas kelompok, deskripsi sistem, pembagian tugas, struktur project, penjelasan file, dan panduan menjalankan program.
 
 </details>
